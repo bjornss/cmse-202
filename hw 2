@@ -1,2 +1,5 @@
-mk dir hw-2
-
+mkdir hw2
+touch hw2/.gitignore
+git add hw2
+echo '*' > hw2/.gitignore
+git commit -m 'Empty directory' hw2
